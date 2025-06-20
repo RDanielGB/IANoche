@@ -1,0 +1,16 @@
+
+inventario = int(input("ingrese la cantidad inicial de pares de zapatos en inventario: " ))
+transaciones = 0
+while inventario > 0: 
+    print(f\("inventario actual: {inventario} pares" ))
+    try:
+        venta = int(input("ingrese la cantidad de pares vendidos en esta transacion. "))
+        if venta <= 0:
+            print("la cantidad debe ser mayor que cero. ")
+            if la venta > inventario:
+                print("error: no se pueden vender mas pares de los disponibles. ")
+                      inventario -= ventas
+                      transacciones += 1
+                      print("ingrese un numero valido: ")
+                      print("inventario agotado. ")
+                print(f"total de transaciones realizadas: {transacciones} ")

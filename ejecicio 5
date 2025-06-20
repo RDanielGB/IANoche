@@ -1,0 +1,4 @@
+for i in range(2, 11):  # Número base de la tabla
+    print(f"\nTabla del {i}")
+    for j in range(2, 11):  # Multiplicadores del 1 al 10
+        print(f"{i} x {j} = {i * j}")

@@ -1,0 +1,26 @@
+def control_ventas():
+    # Solicita la cantidad inicial de inventario
+    inventario = int(input("Ingrese la cantidad inicial de pares de zapatos en inventario: "))
+    transacciones = 0
+
+    # Bucle hasta que el inventario llegue a cero
+    while inventario > 0:
+        print(f"\nInventario actual: {inventario} pares")
+        try:
+            venta = int(input("Ingrese la cantidad de pares vendidos en esta transacción: "))
+            if venta <= 0:
+                print("La cantidad debe ser mayor que cero.")
+                continue
+            if venta > inventario:
+                print("Error: No se pueden vender más pares de los disponibles.")
+                continue
+            inventario -= venta
+            transacciones += 1
+        except ValueError:
+            print("Por favor, ingrese un número válido.")
+
+    print("\n¡Inventario agotado!")
+    print(f"Total de transacciones realizadas: {transacciones}")
+
+# Ejecutar el programa
+control_ventas()

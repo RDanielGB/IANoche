@@ -1,0 +1,8 @@
+num1 = int(input("ingrese el primer número: "))
+num2 = int(input("ingrese el segundo número: "))
+area = (num1 * num2)
+perimetro = (num1 + num2 + num1 + num2)
+print("el largo del area es: ", num1)
+print("el ancho del area es: ", num2)
+print("el area es: ", area)
+print("el perimetro es: ", perimetro)

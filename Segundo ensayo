@@ -1,0 +1,10 @@
+largo = 5
+ancho = 6
+
+area= largo * ancho
+
+print("el area del rectangulo es", area)
+
+perimetro = largo + ancho + largo + ancho
+print(perimetro)
+print("el perimetro de la variables es", perimetro)

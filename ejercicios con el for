@@ -1,0 +1,21 @@
+txt ="HOLA MUNDO"
+""""""
+i = 0
+while i< len(txt):
+    print(txt[i])
+    i += 1
+    for x in txt:
+        print(x)
+        """"""
+for x in range(2,21,2):
+    print(x)
+    """"""
+    i = 1
+    while i< 11:
+        print(i)
+        i+= 1
+        """"""
+        
+        
+        
+    
