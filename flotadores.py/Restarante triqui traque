@@ -15,7 +15,7 @@ def mostrar_menu():
     print(" MENÚ DISPONIBLE:")
     for numero, item in menu.items():
         print(f"{numero}. {item['nombre']} - ${item['precio']:.2f}")
-    print("0. Finalizar pedido, HOLA AMIGOS, ESTOY APRENDIENDO MASS")
+    print("0. Finalizar pedido")
 
 # Función principal
 def tomar_pedido():
